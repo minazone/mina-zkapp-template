@@ -2,9 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2023-07-02
+
+### <!-- 05 -->Documentation
+
+- Add supported funding model platforms
+- Create a readme file with dummy info
+
+### <!-- 07 -->Continuous Integrations
+
+- Relocate CI workflow file out of contracts package
+- Update dependabot configuration
+- Add build workflow configuration for GitHub Actions
+- Delete CI workflow file
+- Remove Node.js version 20.x from the build workflow matrix
+- Create release workflow for generating changelog and publishing on GitHub
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Relocate `.husky` from contracts to the workspace
+- Update `.npmrc` and enable pre-post scripts.
+- Refactor project package names
+- Update dependencies and import statements of packages
+- Add configuration file for git-cliff
+
 ## [1.0.0-alpha.0] - 2023-07-02
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `.nvmrc` with version 16
 - Replace `npm` lock file by `pnpm` one
