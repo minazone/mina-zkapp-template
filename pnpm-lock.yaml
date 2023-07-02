@@ -37,8 +37,8 @@ importers:
         specifier: ^8.7.0
         version: 8.44.0
       eslint-plugin-snarkyjs:
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.3.0
+        version: 0.3.0
       jest:
         specifier: ^27.3.1
         version: 27.3.1
@@ -3114,8 +3114,8 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: false
 
-  /eslint-plugin-snarkyjs@0.1.0:
-    resolution: {integrity: sha512-wq23R8uAQcdBQwVyweI4hKPGtPExPSMCJXGNJggn4iYv7B4isuE29ETj3+Jpw9r3kmm4rng92HnqvZdl3c6ihQ==}
+  /eslint-plugin-snarkyjs@0.3.0:
+    resolution: {integrity: sha512-ncREhfSXrd+F2yp2e5en/WOYBHBGHNJY65JSYqi6Hc/UVyqkAS8tHnZ4tiPRb2cotewFfLhguLftkmYzUhpoEw==}
     dev: true
 
   /eslint-scope@5.1.1:
