@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.2] - 2023-07-02
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump prettier from 2.3.2 to 2.8.8 
+- Bump eslint-plugin-snarkyjs from 0.1.0 to 0.3.0 
+- Bump husky from 7.0.1 to 8.0.3 
+- Bump lint-staged from 11.0.1 to 13.2.3 
+- Bump @babel/preset-env from 7.16.4 to 7.22.5 
+- Bump @typescript-eslint/eslint-plugin 
+- Update .npmrc configuration file
+- Replace exact versions instead of carrot
+- Remove unnecessary pnpm lock files
+
 ## [1.0.0-alpha.1] - 2023-07-02
 
 ### <!-- 05 -->Documentation
