@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.6] - 2023-07-02
+
+### <!-- 05 -->Documentation
+
+- Update project template instructions
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update the import of the package `webapp` to `frontend`
+
 ## [1.0.0-alpha.5] - 2023-07-02
 
 ### <!-- 04 -->Refactor
