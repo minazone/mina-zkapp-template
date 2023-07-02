@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      eslint:
+        specifier: 8.44.0
+        version: 8.44.0
       husky:
         specifier: 8.0.3
         version: 8.0.3
@@ -36,9 +39,6 @@ importers:
       '@typescript-eslint/parser':
         specifier: 5.60.1
         version: 5.60.1(eslint@8.44.0)(typescript@5.1.6)
-      eslint:
-        specifier: 8.44.0
-        version: 8.44.0
       eslint-plugin-snarkyjs:
         specifier: 0.3.0
         version: 0.3.0
@@ -72,9 +72,6 @@ importers:
       autoprefixer:
         specifier: 10.4.14
         version: 10.4.14(postcss@8.4.24)
-      eslint:
-        specifier: 8.44.0
-        version: 8.44.0
       eslint-config-next:
         specifier: 13.4.7
         version: 13.4.7(eslint@8.44.0)(typescript@5.1.6)
