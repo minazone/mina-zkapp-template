@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.4] - 2023-07-02
+
+### <!-- 05 -->Documentation
+
+- Update readme in contracts and webapp packages
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @babel/preset-typescript from 7.16.0 to 7.22.5 
+- Bump eslint from 8.7.0 to 8.44.0 
+- Bump typescript from 4.7.2 to 5.1.6 
+
 ## [1.0.0-alpha.3] - 2023-07-02
 
 ### <!-- 04 -->Refactor
