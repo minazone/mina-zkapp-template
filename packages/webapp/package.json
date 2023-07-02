@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "mina-zkapp-webapp",
   "version": "1.0.0-alpha.0",
   "private": true,
   "scripts": {
