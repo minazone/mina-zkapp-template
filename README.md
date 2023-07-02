@@ -20,17 +20,15 @@ Make sure you have the following software installed on your development machine:
 
 ## Getting Started
 
-To use this project template, follow these steps:
+Click on `Use this template` to create the repo for your zkApp.
+
+Then, to use this project template, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/your-username/your-repo.git`
 2. Navigate to the project directory: `cd your-repo`
 3. Install project dependencies: `pnpm install`
 4. Start the development server: `pnpm run dev`
 5. Open your browser and visit http://localhost:3000 to see the application in action.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Resources
 
@@ -42,3 +40,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 This project template is inspired by the Mina zkApps ecosystem and various community contributions.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
