@@ -2,7 +2,10 @@
   "name": "mina-zkapp-next-pnpm",
   "version": "1.0.0-alpha.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "pnpm -r --filter='./packages/*' run build",
+    "test": "pnpm -r --filter='./packages/*' run test"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT"
