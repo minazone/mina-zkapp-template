@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      husky:
+        specifier: ^7.0.1
+        version: 7.0.1
 
   packages/contracts:
     dependencies:
@@ -35,9 +39,6 @@ importers:
       eslint-plugin-snarkyjs:
         specifier: ^0.1.0
         version: 0.1.0
-      husky:
-        specifier: ^7.0.1
-        version: 7.0.1
       jest:
         specifier: ^27.3.1
         version: 27.3.1
