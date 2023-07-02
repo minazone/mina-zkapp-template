@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.3] - 2023-07-02
+
+### <!-- 04 -->Refactor
+
+- Enable SnarkyJS by setting COOP and COEP headers
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Restructure export and disable image optimization
+- Install `pnpm` as a dev-dependency
+- Update package.json with package manager version
+- Add analyze script to package.json and devDependencies
+- Bundle analyzer configuration added to next.config.js
+- Update snarkyjs version to 0.11.3
+- Update package name in package.json
+
 ## [1.0.0-alpha.2] - 2023-07-02
 
 ### <!-- 08 -->Miscellaneous Tasks
