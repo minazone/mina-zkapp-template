@@ -1,12 +1,16 @@
 {
   "name": "mina-zkapp-next-pnpm",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "",
   "scripts": {
     "build": "pnpm -r --filter='./packages/*' run build",
-    "test": "pnpm -r --filter='./packages/*' run test"
+    "test": "pnpm -r --filter='./packages/*' run test",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^7.0.1"
+  }
 }
