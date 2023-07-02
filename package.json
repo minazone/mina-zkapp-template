@@ -1,6 +1,6 @@
 {
-  "name": "mina-zkapp-next-pnpm",
-  "version": "1.0.0-alpha.1",
+  "name": "mina-zkapp-template",
+  "version": "1.0.0-alpha.3",
   "description": "",
   "scripts": {
     "build": "pnpm -r --filter='./packages/*' run build",
@@ -11,6 +11,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "husky": "8.0.3"
-  }
+    "husky": "8.0.3",
+    "pnpm": "8.6.5"
+  },
+  "packageManager": "pnpm@8.6.5"
 }
