@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.5] - 2023-07-02
+
+### <!-- 04 -->Refactor
+
+- Rename `webapp` package to the `frontend`
+
+### <!-- 05 -->Documentation
+
+- Update README.md for Mina zkApp Template
+- Create a new license file for the project 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump jest and @types/jest 
+- Bump ts-jest from 27.0.7 to 29.1.1 
+- Bump @typescript-eslint/parser from 5.5.0 to 5.60.1 
+- Relocate `eslint` to workspace root package
+- Relocate `typescript` to workspace root package
+
 ## [1.0.0-alpha.4] - 2023-07-02
 
 ### <!-- 05 -->Documentation
