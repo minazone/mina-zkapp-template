@@ -11,6 +11,9 @@ importers:
       husky:
         specifier: 8.0.3
         version: 8.0.3
+      pnpm:
+        specifier: 8.6.5
+        version: 8.6.5
 
   packages/contracts:
     dependencies:
@@ -5216,6 +5219,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+    dev: true
+
+  /pnpm@8.6.5:
+    resolution: {integrity: sha512-mztfvneJl4o9gCWfQlFKio6gVYhJbFazWUVBcomJ9u/yspwScHUxMyWvxOed1a543roo+aeIjp5VQkHOoTWFAg==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: true
 
   /postcss-import@15.1.0(postcss@8.4.24):
