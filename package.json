@@ -1,6 +1,6 @@
 {
   "name": "mina-zkapp-template",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0-alpha.7",
   "description": "",
   "scripts": {
     "dev": "pnpm -r --parallel --filter='./packages/*' run dev",
