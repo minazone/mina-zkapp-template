@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.7] - 2023-07-03
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Updated author information in package
+- Add new dev dependency and update existing ones
+- Update dev command in package
+
 ## [1.0.0-alpha.6] - 2023-07-02
 
 ### <!-- 05 -->Documentation

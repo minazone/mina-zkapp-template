@@ -1,20 +1,27 @@
 {
   "name": "mina-zkapp-template",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0-alpha.7",
   "description": "",
   "scripts": {
+    "dev": "pnpm -r --parallel --filter='./packages/*' run dev",
     "build": "pnpm -r --filter='./packages/*' run build",
     "test": "pnpm -r --filter='./packages/*' run test",
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Milad Nekofar",
+    "url": "https://milad.nekofar.com",
+    "email": "milad@nekofar.com"
+  },
   "license": "MIT",
   "devDependencies": {
+    "@cloudflare/workers-types": "4.20230518.0",
     "eslint": "8.44.0",
     "husky": "8.0.3",
     "pnpm": "8.6.5",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "wrangler": "3.1.0"
   },
   "packageManager": "pnpm@8.6.5"
 }
