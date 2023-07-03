@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha.6",
   "description": "",
   "scripts": {
+    "dev": "pnpm -r --parallel --filter='./packages/*' run dev",
     "build": "pnpm -r --filter='./packages/*' run build",
     "test": "pnpm -r --filter='./packages/*' run test",
     "prepare": "husky install"
