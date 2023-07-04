@@ -1,4 +1,4 @@
-import { Field, SmartContract, state, State, method } from 'snarkyjs';
+import { Field, SmartContract, State, method, state } from 'snarkyjs'
 
 /**
  * Basic Example
@@ -10,16 +10,16 @@ import { Field, SmartContract, state, State, method } from 'snarkyjs';
  * This file is safe to delete and replace with your own contract.
  */
 export class Add extends SmartContract {
-  @state(Field) num = State<Field>();
+  @state(Field) num = State<Field>()
 
   init() {
-    super.init();
-    this.num.set(Field(1));
+    super.init()
+    this.num.set(Field(1))
   }
 
   @method update() {
-    const currentState = this.num.getAndAssertEquals();
-    const newState = currentState.add(2);
-    this.num.set(newState);
+    const currentState = this.num.getAndAssertEquals()
+    const newState = currentState.add(2)
+    this.num.set(newState)
   }
 }

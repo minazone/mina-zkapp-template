@@ -1,3 +1,3 @@
-import GradientBG from "@/components/GradientBG";
+import GradientBG from '@/components/GradientBG'
 
-export {GradientBG}
+export { GradientBG }

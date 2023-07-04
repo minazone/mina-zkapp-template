@@ -3,10 +3,11 @@
     "target": "es2020",
     "module": "es2022",
     "lib": ["dom", "esnext"],
-    "outDir": "./build",
-    "rootDir": ".",
+    "outDir": "dist",
+    "rootDir": "src",
     "strict": true,
-    "strictPropertyInitialization": false, // to enable generic constructors, e.g. on CircuitValue
+    "strictPropertyInitialization": false,
+    // to enable generic constructors, e.g. on CircuitValue
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
@@ -19,5 +20,5 @@
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["./src"]
+  "include": ["src/**/*"]
 }

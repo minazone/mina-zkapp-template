@@ -1,6 +1,6 @@
 {
   "name": "@minazone/zkapp-template",
-  "version": "1.0.0-alpha.10",
+  "version": "1.0.0-alpha.11",
   "description": "",
   "scripts": {
     "dev": "pnpm -r --parallel --filter='./packages/*' run dev",
@@ -25,6 +25,7 @@
     "lint-staged": "13.2.3",
     "pnpm": "8.6.6",
     "prettier": "2.8.8",
+    "prettier-plugin-organize-imports": "3.2.2",
     "typescript": "5.1.6",
     "wrangler": "3.1.1"
   },

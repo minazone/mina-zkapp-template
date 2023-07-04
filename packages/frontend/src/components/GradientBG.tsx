@@ -103,7 +103,7 @@ export default function GradientBG({ children }) {
         renderPixel(pixels[i])
       }
     }
-  };
+  }
 
   useEffect(() => {
     if (canvasRef.current) {

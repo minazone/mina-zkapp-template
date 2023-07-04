@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.11] - 2023-07-04
+
+### <!-- 04 -->Refactor
+
+- Update and improve source codes
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update tsconfig.json for contracts and frontend
+- Update Prettier formatting options
+- Relocate `prettier-plugin-organize-imports` as a dev-dependency in workspace root
+- Update package.json with new lint-staged script
+- Refactor hooks configuration for pre-commit and pre-push
+- Update build output directory and package paths
+
 ## [1.0.0-alpha.10] - 2023-07-04
 
 ### <!-- 04 -->Refactor
