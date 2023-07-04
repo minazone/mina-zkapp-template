@@ -1,12 +1,14 @@
 {
   "name": "mina-zkapp-template",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "description": "",
   "scripts": {
     "dev": "pnpm -r --parallel --filter='./packages/*' run dev",
     "build": "pnpm -r --filter='./packages/*' run build",
     "test": "pnpm -r --filter='./packages/*' run test",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "pnpm -r --filter='./packages/*' run lint",
+    "format": "pnpm -r --filter='./packages/*' run format"
   },
   "keywords": [],
   "author": {
@@ -18,10 +20,13 @@
   "devDependencies": {
     "@cloudflare/workers-types": "4.20230518.0",
     "eslint": "8.44.0",
+    "eslint-config-prettier": "8.8.0",
     "husky": "8.0.3",
-    "pnpm": "8.6.5",
+    "lint-staged": "13.2.3",
+    "pnpm": "8.6.6",
+    "prettier": "2.8.8",
     "typescript": "5.1.6",
-    "wrangler": "3.1.0"
+    "wrangler": "3.1.1"
   },
   "packageManager": "pnpm@8.6.5"
 }
