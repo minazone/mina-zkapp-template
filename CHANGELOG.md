@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.10] - 2023-07-04
+
+### <!-- 04 -->Refactor
+
+- Remove unnecessary file extensions and imports
+
+### <!-- 05 -->Documentation
+
+- Update dev command in frontend README
+- Update project description
+
 ## [1.0.0-alpha.9] - 2023-07-04
 
 ### <!-- 04 -->Refactor
