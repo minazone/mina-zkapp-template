@@ -3,8 +3,8 @@
     "target": "es2020",
     "module": "es2022",
     "lib": ["dom", "esnext"],
-    "outDir": "./build",
-    "rootDir": ".",
+    "outDir": "dist",
+    "rootDir": "src",
     "strict": true,
     "strictPropertyInitialization": false,
     // to enable generic constructors, e.g. on CircuitValue
@@ -20,5 +20,5 @@
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["./src"]
+  "include": ["src/**/*"]
 }
