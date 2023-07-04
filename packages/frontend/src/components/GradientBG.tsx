@@ -93,7 +93,8 @@ export default function GradientBG({ children }) {
     context.fillRect(pixel.x.c, pixel.y.c, pixel.w.c, pixel.h.c)
   }
 
-  function paint() {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const paint: () => void = () => {
     if (canvasRef.current) {
       context.clearRect(0, 0, canvasRef.current.width, canvasRef.current.height)
       for (let i = 0; i < pixels.length; i++) {
@@ -102,7 +103,7 @@ export default function GradientBG({ children }) {
         renderPixel(pixels[i])
       }
     }
-  }
+  };
 
   useEffect(() => {
     if (canvasRef.current) {
