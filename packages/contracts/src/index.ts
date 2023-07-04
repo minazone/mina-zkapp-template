@@ -1,3 +1,3 @@
-import { Add } from './Add';
+import { Add } from './Add'
 
-export { Add };
+export { Add }
