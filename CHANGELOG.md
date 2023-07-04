@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.8] - 2023-07-04
+
+### <!-- 04 -->Refactor
+
+- Update GradientBG component
+- Update import order in `_document.tsx`, `hello.ts`, `index.tsx`
+- Rename `GradientBG.js` to `GradientBG.tsx`
+
+### <!-- 05 -->Documentation
+
+- Update project name and description
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump pnpm from 8.6.5 to 8.6.6 
+- Bump @next/bundle-analyzer from 13.4.7 to 13.4.8 
+- Bump @typescript-eslint/eslint-plugin 
+- Bump eslint-config-next from 13.4.7 to 13.4.8 
+- Bump wrangler from 3.1.0 to 3.1.1 
+- Bump @typescript-eslint/parser from 5.60.1 to 5.61.0 
+- Bump next from 13.4.7 to 13.4.8 
+- Add `lint` script in package.json
+- Add `eslint-config-prettier` to the dev-dependencies
+- Add `prettier` to the workspace dependencies
+- Update `.eslintrc.json` to extend from `prettier`
+- Ignore irrelevant files from .prettierignore
+- Add `prettier-plugin-organize-imports` to dev-dependencies
+- Add `prettier-plugin-tailwindcss` to dev-dependencies
+- Update prettier.config.js with new configuration
+- Add `format` script to package.json
+- Add `lint-staged` configuration for `frontend` package
+- Relocate `lint-staged` to workspace dev-dependencies
+- Update package.json scripts
+- Removed API route from frontend package.
+
 ## [1.0.0-alpha.7] - 2023-07-03
 
 ### <!-- 08 -->Miscellaneous Tasks
