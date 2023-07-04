@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.9] - 2023-07-04
+
+### <!-- 04 -->Refactor
+
+- Add new component export and import shorthand for GradientBG
+
+### <!-- 05 -->Documentation
+
+- Update README.md file with badges
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update package names and imports for zkapp-template
+
 ## [1.0.0-alpha.8] - 2023-07-04
 
 ### <!-- 04 -->Refactor
