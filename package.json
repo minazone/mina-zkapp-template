@@ -25,6 +25,7 @@
     "lint-staged": "13.2.3",
     "pnpm": "8.6.6",
     "prettier": "2.8.8",
+    "prettier-plugin-organize-imports": "3.2.2",
     "typescript": "5.1.6",
     "wrangler": "3.1.1"
   },
