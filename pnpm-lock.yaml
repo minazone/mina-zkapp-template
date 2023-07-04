@@ -69,6 +69,9 @@ importers:
 
   packages/frontend:
     dependencies:
+      '@minazone/zkapp-template-contracts':
+        specifier: workspace:*
+        version: link:../contracts
       '@types/node':
         specifier: 20.3.3
         version: 20.3.3
@@ -84,9 +87,6 @@ importers:
       eslint-config-next:
         specifier: 13.4.8
         version: 13.4.8(eslint@8.44.0)(typescript@5.1.6)
-      mina-zkapp-contracts:
-        specifier: workspace:*
-        version: link:../contracts
       next:
         specifier: 13.4.8
         version: 13.4.8(react-dom@18.2.0)(react@18.2.0)

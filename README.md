@@ -1,5 +1,11 @@
 # Mina zkApp Template
 
+[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/minazone/mina-zkapp-template?include_prereleases)](https://github.com/minazone/mina-zkapp-template/releases)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/minazone/mina-zkapp-template/build.yml)](https://github.com/minazone/mina-zkapp-template/actions/workflows/build.yml)
+[![GitHub](https://img.shields.io/github/license/minazone/mina-zkapp-template)](https://github.com/minazone/mina-zkapp-template/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/badge/follow-%40nekofar-1DA1F2?logo=twitter&style=flat)](https://twitter.com/nekofar)
+[![Donate](https://img.shields.io/badge/donate-nekofar.crypto-a2b9bc?logo=ko-fi&logoColor=white)](https://ud.me/nekofar.crypto)
+
 ## Description
 
 This is a project template for building zkApps (zero-knowledge applications) on the Mina Protocol. It provides a starting point for creating decentralized applications with Mina, 
