@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
-import GradientBG from '../components/GradientBG.js'
+import {GradientBG} from '../components'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   useEffect(() => {
     ;(async () => {
       const { Mina, PublicKey } = await import('snarkyjs')
-      const { Add } = await import('mina-zkapp-contracts')
+      const { Add } = await import('@minazone/zkapp-template-contracts')
 
       // Update this to use the address (public key) for your zkApp account.
       // To try it out, you can try this address for an example "Add" smart contract that we've deployed to

@@ -1,5 +1,5 @@
 {
-  "name": "mina-zkapp-frontend",
+  "name": "@minazone/zkapp-template-frontend",
   "version": "1.0.0-alpha.0",
   "private": true,
   "scripts": {
@@ -12,12 +12,12 @@
     "format": "prettier --write --ignore-unknown src/**/*"
   },
   "dependencies": {
+    "@minazone/zkapp-template-contracts": "workspace:*",
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
     "eslint-config-next": "13.4.8",
-    "mina-zkapp-contracts": "workspace:*",
     "next": "13.4.8",
     "postcss": "8.4.24",
     "react": "18.2.0",
