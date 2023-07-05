@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.12] - 2023-07-05
+
+### <!-- 03 -->Testing
+
+- Update module path ignore patterns in jest.config.js
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump jest from 29.5.0 to 29.6.0 
+- Bump @babel/preset-env from 7.22.5 to 7.22.6 
+- Remove globals and modify Jest configuration for ESM support
+
 ## [1.0.0-alpha.11] - 2023-07-04
 
 ### <!-- 04 -->Refactor
