@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.13] - 2023-07-07
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/setup-node from 3.6.0 to 3.7.0 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.3.3 to 20.4.0 
+- Bump prettier from 2.8.8 to 3.0.0 
+- Bump next from 13.4.8 to 13.4.9 
+- Bump snarkyjs from 0.11.3 to 0.11.4 
+- Bump @cloudflare/workers-types 
+- Bump wrangler from 3.1.1 to 3.1.2 
+- Bump @babel/preset-env from 7.22.6 to 7.22.7 
+
 ## [1.0.0-alpha.12] - 2023-07-05
 
 ### <!-- 03 -->Testing
