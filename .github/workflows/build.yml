@@ -46,11 +46,21 @@ jobs:
 
       - uses: actions/cache@v3.3.1
         name: Setup pnpm cache
+        id: turbo-cache
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
+
+      - uses: actions/cache@v3.3.1
+        name: Setup turbo cache
+        with:
+          path: |
+            node_modules/.cache/turbo
+            **/.turbo
+          key: ${{ runner.os }}-turbo-${{ github.job }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: ${{ runner.os }}-turbo-${{ github.job }}-${{ github.ref_name }}-
 
       - name: Install dependencies
         run: pnpm install
