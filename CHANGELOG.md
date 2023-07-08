@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.14] - 2023-07-08
+
+### <!-- 07 -->Continuous Integrations
+
+- Add turbo cache setup step on `build` workflow
+- Update build workflow to limit parallel execution to 1
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint-config-next from 13.4.8 to 13.4.9 
+- Bump jest from 29.6.0 to 29.6.1 
+- Bump @next/bundle-analyzer from 13.4.8 to 13.4.9 
+- Bump postcss from 8.4.24 to 8.4.25 
+- Add turbo.json configuration file for turbo.build
+- Update package.json with `turbo` dependency
+- Add `.turbo` to .gitignore
+- Update package.json scripts
+
 ## [1.0.0-alpha.13] - 2023-07-07
 
 ### <!-- 07 -->Continuous Integrations
