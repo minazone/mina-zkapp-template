@@ -106,8 +106,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       snarkyjs:
-        specifier: 0.11.4
-        version: 0.11.4
+        specifier: 0.12.1
+        version: 0.12.1
       tailwindcss:
         specifier: 3.3.2
         version: 3.3.2
@@ -6019,8 +6019,8 @@ packages:
       - encoding
     dev: false
 
-  /snarkyjs@0.11.4:
-    resolution: {integrity: sha512-PVbVus8xoL1XgkFRg/SlfxmC30AziIgr7HCTeBKzIuffa155mxTL+WARZg4XlIG27hG+CAGycSebQhiedoLR0w==}
+  /snarkyjs@0.12.1:
+    resolution: {integrity: sha512-Zv1tj+NBoid2O4Pewj1sUCcqYApoDJ4M6I/Lm7WzpRwf1HwU3h4rUF10mDfBaX4fb6A+9OXLI6cmR8P2URVehg==}
     engines: {node: '>=16.4.0'}
     hasBin: true
     dependencies:
