@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.15] - 2023-07-18
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.4.0 to 20.4.1 
+- Bump pnpm from 8.6.6 to 8.6.7 
+- Bump @typescript-eslint/parser from 5.61.0 to 6.0.0 
+- Bump prettier-plugin-tailwindcss from 0.3.0 to 0.4.0 
+- Bump postcss from 8.4.25 to 8.4.26 
+- Bump prettier-plugin-tailwindcss from 0.4.0 to 0.4.1 
+- Bump pnpm from 8.6.7 to 8.6.8 
+- Bump @types/jest from 29.5.2 to 29.5.3 
+- Bump wrangler from 3.1.2 to 3.2.0 
+- Bump prettier-plugin-organize-imports 
+- Bump turbo from 1.10.7 to 1.10.8 
+
 ## [1.0.0-alpha.14] - 2023-07-08
 
 ### <!-- 07 -->Continuous Integrations
