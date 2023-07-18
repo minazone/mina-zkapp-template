@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.16] - 2023-07-18
+
+### <!-- 06 -->Build Environment
+
+- Refactor build pipeline outputs in `turbo.json`
+- Remove unnecessary test dependencies in `turbo.json`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @babel/preset-env from 7.22.7 to 7.22.9 
+- Bump eslint from 8.44.0 to 8.45.0 
+- Bump @cloudflare/workers-types 
+- Bump eslint-config-next from 13.4.9 to 13.4.10 
+- Bump @types/node from 20.4.1 to 20.4.2 
+- Bump @next/bundle-analyzer from 13.4.9 to 13.4.10 
+- Bump snarkyjs from 0.11.4 to 0.12.1 
+- Bump @typescript-eslint/parser from 6.0.0 to 6.1.0 
+- Bump next from 13.4.9 to 13.4.10 
+- Bump @types/react-dom from 18.2.6 to 18.2.7 
+- Bump tailwindcss from 3.3.2 to 3.3.3 
+- Bump @types/react from 18.2.14 to 18.2.15 
+
 ## [1.0.0-alpha.15] - 2023-07-18
 
 ### <!-- 08 -->Miscellaneous Tasks
