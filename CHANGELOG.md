@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.17] - 2023-07-19
+
+### <!-- 07 -->Continuous Integrations
+
+- Remove `develop` branch from build workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @typescript-eslint/eslint-plugin 
+- Bump pnpm from 8.6.8 to 8.6.9 
+- Bump wrangler from 3.2.0 to 3.3.0 
+
 ## [1.0.0-alpha.16] - 2023-07-18
 
 ### <!-- 06 -->Build Environment
