@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.18] - 2023-07-23
+
+### <!-- 07 -->Continuous Integrations
+
+- Update GitHub Actions release workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump turbo from 1.10.8 to 1.10.9 
+- Bump @cloudflare/workers-types 
+- Remove redundant 'turbo-cache' id from pnpm, Add to turbo
+
 ## [1.0.0-alpha.17] - 2023-07-19
 
 ### <!-- 07 -->Continuous Integrations
