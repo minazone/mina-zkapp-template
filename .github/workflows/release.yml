@@ -53,4 +53,4 @@ jobs:
           tag: ${{ github.ref_name }} # The name of the tag to be released
           title: ${{ github.ref_name }} # The title for the release
           notes: ${{ needs.changelog.outputs.release_body }} # The release notes generated in the previous step
-          prerelease: ${{ contains(github.ref_name, ('-rc' or '-beta' or '-alpha')) }} # Conditions to mark the release as a pre-release
+          prerelease: ${{ contains(github.ref_name, '-rc') || contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }} # Conditions to mark the release as a pre-release
