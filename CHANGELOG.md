@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.19] - 2023-07-23
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add node version constraint to package.json
+
 ## [1.0.0-alpha.18] - 2023-07-23
 
 ### <!-- 07 -->Continuous Integrations
