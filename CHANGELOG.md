@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.20] - 2023-07-23
+
+### <!-- 07 -->Continuous Integrations
+
+- Improve prerelease condition in Github workflow
+
 ## [1.0.0-alpha.19] - 2023-07-23
 
 ### <!-- 08 -->Miscellaneous Tasks
