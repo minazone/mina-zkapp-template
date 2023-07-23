@@ -30,5 +30,8 @@
     "typescript": "5.1.6",
     "wrangler": "3.3.0"
   },
+  "engines": {
+    "node": "< 20"
+  },
   "packageManager": "pnpm@8.6.5"
 }
