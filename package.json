@@ -23,7 +23,7 @@
     "eslint-config-prettier": "8.8.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
-    "pnpm": "8.6.9",
+    "pnpm": "8.6.10",
     "prettier": "3.0.0",
     "prettier-plugin-organize-imports": "3.2.3",
     "turbo": "1.10.9",
