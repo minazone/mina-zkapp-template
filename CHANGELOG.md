@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.22] - 2023-07-24
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump nekofar/create-github-release from 1.0.0 to 1.0.5 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint-config-next from 13.4.10 to 13.4.12 
+- Bump pnpm from 8.6.9 to 8.6.10 
+- Bump @types/node from 20.4.2 to 20.4.4 
+- Bump postcss from 8.4.26 to 8.4.27 
+- Bump next from 13.4.10 to 13.4.12 
+- Bump @next/bundle-analyzer from 13.4.10 to 13.4.12 
+
 ## [1.0.0-alpha.21] - 2023-07-23
 
 ### <!-- 07 -->Continuous Integrations
