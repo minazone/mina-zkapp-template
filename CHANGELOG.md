@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.23] - 2023-07-27
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump pnpm/action-setup from 2.2.4 to 2.4.0 
+- Bump nekofar/create-github-release from 1.0.5 to 1.0.8 
+- Update Github Actions workflow with usage guard
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.2.15 to 18.2.17 
+- Bump @typescript-eslint/parser from 6.1.0 to 6.2.0 
+- Bump turbo from 1.10.9 to 1.10.12 
+- Bump @cloudflare/workers-types 
+- Bump @typescript-eslint/eslint-plugin 
+- Bump @types/node from 20.4.4 to 20.4.5 
+
 ## [1.0.0-alpha.22] - 2023-07-24
 
 ### <!-- 07 -->Continuous Integrations
