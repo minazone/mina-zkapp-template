@@ -113,8 +113,8 @@ importers:
         version: 3.3.3
     devDependencies:
       '@next/bundle-analyzer':
-        specifier: 13.4.13
-        version: 13.4.13
+        specifier: 13.4.16
+        version: 13.4.16
       prettier-plugin-tailwindcss:
         specifier: 0.5.2
         version: 0.5.2(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.1)
@@ -1959,8 +1959,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@next/bundle-analyzer@13.4.13:
-    resolution: {integrity: sha512-XygyFn3V61vF9LkU1zM6GlAMp8h7FbApaLA40anMGhZtQt/0S1tGSNImv9T/Z3ZTbWIQTcbYxyHIM6Fv/uSGrA==}
+  /@next/bundle-analyzer@13.4.16:
+    resolution: {integrity: sha512-9YO6o7YeWAn7j5zlYE5oVKYxpP/3aCnh7q4niwOBeHmafmWjhkVrxi0g0t2ds19vnsBm73hNcyeXzTi/T2hE+Q==}
     dependencies:
       webpack-bundle-analyzer: 4.7.0
     transitivePeerDependencies:
