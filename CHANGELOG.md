@@ -2,6 +2,63 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.24] - 2023-08-22
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump nekofar/create-github-release from 1.0.8 to 1.0.11 
+- Bump nekofar/create-github-release from 1.0.11 to 1.0.12 
+- Bump actions/setup-node from 3.7.0 to 3.8.1 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump wrangler from 3.3.0 to 3.4.0 
+- Bump jest from 29.6.1 to 29.6.2 
+- Bump eslint-config-prettier from 8.8.0 to 8.9.0 
+- Bump eslint from 8.45.0 to 8.46.0 
+- Bump pnpm from 8.6.10 to 8.6.11 
+- Bump @types/react from 18.2.17 to 18.2.18 
+- Bump @typescript-eslint/parser from 6.2.0 to 6.2.1 
+- Bump @typescript-eslint/eslint-plugin 
+- Bump @cloudflare/workers-types 
+- Bump @types/node from 20.4.5 to 20.4.6 
+- Bump prettier from 3.0.0 to 3.0.1 
+- Bump @types/node from 20.4.6 to 20.4.7 
+- Bump eslint-config-prettier from 8.9.0 to 8.10.0 
+- Bump @types/node from 20.4.7 to 20.4.8 
+- Bump pnpm from 8.6.11 to 8.6.12 
+- Bump eslint-config-prettier from 8.10.0 to 9.0.0 
+- Bump @typescript-eslint/eslint-plugin 
+- Bump eslint-config-next from 13.4.12 to 13.4.13 
+- Bump @cloudflare/workers-types 
+- Bump @typescript-eslint/parser from 6.2.1 to 6.3.0 
+- Bump next from 13.4.12 to 13.4.13 
+- Bump @next/bundle-analyzer from 13.4.12 to 13.4.13 
+- Bump @babel/preset-env from 7.22.9 to 7.22.10 
+- Bump @types/react from 18.2.18 to 18.2.19 
+- Bump @types/node from 20.4.8 to 20.4.9 
+- Bump wrangler from 3.4.0 to 3.5.0 
+- Bump @types/react from 18.2.19 to 18.2.20 
+- Bump prettier-plugin-tailwindcss from 0.4.1 to 0.5.1 
+- Bump prettier-plugin-tailwindcss from 0.5.1 to 0.5.2 
+- Bump lint-staged from 13.2.3 to 14.0.0 
+- Bump autoprefixer from 10.4.14 to 10.4.15 
+- Bump @types/node from 20.4.9 to 20.5.0 
+- Bump eslint from 8.46.0 to 8.47.0 
+- Bump @typescript-eslint/parser from 6.3.0 to 6.4.0 
+- Bump @cloudflare/workers-types 
+- Bump @typescript-eslint/eslint-plugin 
+- Bump prettier-plugin-tailwindcss from 0.5.2 to 0.5.3 
+- Bump wrangler from 3.5.0 to 3.5.1 
+- Bump prettier from 3.0.1 to 3.0.2 
+- Bump next from 13.4.13 to 13.4.18 
+- Bump @next/bundle-analyzer from 13.4.13 to 13.4.18 
+- Bump postcss from 8.4.27 to 8.4.28 
+- Bump @next/bundle-analyzer from 13.4.18 to 13.4.19 
+- Bump eslint-config-next from 13.4.13 to 13.4.19 
+- Bump @types/node from 20.5.0 to 20.5.1 
+- Bump lint-staged from 14.0.0 to 14.0.1 
+
 ## [1.0.0-alpha.23] - 2023-07-27
 
 ### <!-- 07 -->Continuous Integrations
