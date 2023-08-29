@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.25] - 2023-08-29
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.3 to 3.6.0 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @typescript-eslint/eslint-plugin 
+- Bump @cloudflare/workers-types 
+- Bump @typescript-eslint/parser from 6.4.0 to 6.4.1 
+- Bump @types/react from 18.2.20 to 18.2.21 
+- Bump @types/jest from 29.5.3 to 29.5.4 
+- Bump @types/node from 20.5.1 to 20.5.3 
+- Bump @types/node from 20.5.3 to 20.5.4 
+- Bump turbo from 1.10.12 to 1.10.13 
+- Bump @babel/preset-typescript from 7.22.5 to 7.22.11 
+- Bump wrangler from 3.5.1 to 3.6.0 
+- Bump @types/node from 20.5.4 to 20.5.6 
+- Bump typescript from 5.1.6 to 5.2.2 
+- Bump jest from 29.6.3 to 29.6.4 
+- Bump eslint from 8.47.0 to 8.48.0 
+- Bump @types/node from 20.5.6 to 20.5.7 
+- Bump pnpm from 8.6.12 to 8.7.0 
+
 ## [1.0.0-alpha.24] - 2023-08-22
 
 ### <!-- 07 -->Continuous Integrations
@@ -58,6 +83,8 @@ All notable changes to this project will be documented in this file.
 - Bump eslint-config-next from 13.4.13 to 13.4.19 
 - Bump @types/node from 20.5.0 to 20.5.1 
 - Bump lint-staged from 14.0.0 to 14.0.1 
+- Bump next from 13.4.18 to 13.4.19 
+- Bump jest from 29.6.2 to 29.6.3 
 
 ## [1.0.0-alpha.23] - 2023-07-27
 
