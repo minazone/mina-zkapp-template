@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.26] - 2023-09-05
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.6 to 2.1.0 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @typescript-eslint/parser from 6.4.1 to 6.5.0 
+- Bump @typescript-eslint/eslint-plugin 
+- Bump prettier from 3.0.2 to 3.0.3 
+- Bump postcss from 8.4.28 to 8.4.29 
+- Bump @babel/preset-env from 7.22.10 to 7.22.14 
+- Bump prettier-plugin-tailwindcss from 0.5.3 to 0.5.4 
+- Bump pnpm from 8.7.0 to 8.7.1 
+- Bump @types/node from 20.5.7 to 20.5.9 
+- Bump @cloudflare/workers-types 
+- Bump @typescript-eslint/eslint-plugin 
+
 ## [1.0.0-alpha.25] - 2023-08-29
 
 ### <!-- 07 -->Continuous Integrations
