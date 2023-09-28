@@ -24,8 +24,8 @@ importers:
         specifier: 14.0.1
         version: 14.0.1
       pnpm:
-        specifier: 8.7.6
-        version: 8.7.6
+        specifier: 8.8.0
+        version: 8.8.0
       prettier:
         specifier: 3.0.3
         version: 3.0.3
@@ -5315,8 +5315,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /pnpm@8.7.6:
-    resolution: {integrity: sha512-ZJ/LpDy+IGYpCPYo2INfnw2MopUOTHQ3HcnhbiSqVLtV5rTmsrbFHe4i35ITLpcgvIWptWbzUTZ8efDYXWpFew==}
+  /pnpm@8.8.0:
+    resolution: {integrity: sha512-eY5rMiZpzmPI2oVr1irR97bzb036oKwCWvK91wDQndXcqUPlytPtrF0bO668Syw/uA+7hTf5NnM8Mr4ux4BRRA==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
