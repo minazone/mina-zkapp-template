@@ -28,7 +28,7 @@
     "prettier-plugin-organize-imports": "3.2.3",
     "turbo": "1.10.15",
     "typescript": "5.2.2",
-    "wrangler": "3.13.2"
+    "wrangler": "3.14.0"
   },
   "engines": {
     "node": "< 20"
