@@ -4,446 +4,214 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.0-alpha.26] - 2023-09-05
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
-- Bump orhun/git-cliff-action from 2.0.6 to 2.1.0 
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @typescript-eslint/parser from 6.4.1 to 6.5.0 
-- Bump @typescript-eslint/eslint-plugin 
-- Bump prettier from 3.0.2 to 3.0.3 
-- Bump postcss from 8.4.28 to 8.4.29 
-- Bump @babel/preset-env from 7.22.10 to 7.22.14 
-- Bump prettier-plugin-tailwindcss from 0.5.3 to 0.5.4 
-- Bump pnpm from 8.7.0 to 8.7.1 
-- Bump @types/node from 20.5.7 to 20.5.9 
-- Bump @cloudflare/workers-types 
-- Bump @typescript-eslint/eslint-plugin 
-
-## [1.0.0-alpha.25] - 2023-08-29
-
-### <!-- 07 -->Continuous Integrations
-
-- Bump actions/checkout from 3.5.3 to 3.6.0 
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @typescript-eslint/eslint-plugin 
-- Bump @cloudflare/workers-types 
-- Bump @typescript-eslint/parser from 6.4.0 to 6.4.1 
-- Bump @types/react from 18.2.20 to 18.2.21 
-- Bump @types/jest from 29.5.3 to 29.5.4 
-- Bump @types/node from 20.5.1 to 20.5.3 
-- Bump @types/node from 20.5.3 to 20.5.4 
-- Bump turbo from 1.10.12 to 1.10.13 
-- Bump @babel/preset-typescript from 7.22.5 to 7.22.11 
-- Bump wrangler from 3.5.1 to 3.6.0 
-- Bump @types/node from 20.5.4 to 20.5.6 
-- Bump typescript from 5.1.6 to 5.2.2 
-- Bump jest from 29.6.3 to 29.6.4 
-- Bump eslint from 8.47.0 to 8.48.0 
-- Bump @types/node from 20.5.6 to 20.5.7 
-- Bump pnpm from 8.6.12 to 8.7.0 
-
-## [1.0.0-alpha.24] - 2023-08-22
-
-### <!-- 07 -->Continuous Integrations
-
-- Bump nekofar/create-github-release from 1.0.8 to 1.0.11 
-- Bump nekofar/create-github-release from 1.0.11 to 1.0.12 
-- Bump actions/setup-node from 3.7.0 to 3.8.1 
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump wrangler from 3.3.0 to 3.4.0 
-- Bump jest from 29.6.1 to 29.6.2 
-- Bump eslint-config-prettier from 8.8.0 to 8.9.0 
-- Bump eslint from 8.45.0 to 8.46.0 
-- Bump pnpm from 8.6.10 to 8.6.11 
-- Bump @types/react from 18.2.17 to 18.2.18 
-- Bump @typescript-eslint/parser from 6.2.0 to 6.2.1 
-- Bump @typescript-eslint/eslint-plugin 
-- Bump @cloudflare/workers-types 
-- Bump @types/node from 20.4.5 to 20.4.6 
-- Bump prettier from 3.0.0 to 3.0.1 
-- Bump @types/node from 20.4.6 to 20.4.7 
-- Bump eslint-config-prettier from 8.9.0 to 8.10.0 
-- Bump @types/node from 20.4.7 to 20.4.8 
-- Bump pnpm from 8.6.11 to 8.6.12 
-- Bump eslint-config-prettier from 8.10.0 to 9.0.0 
-- Bump @typescript-eslint/eslint-plugin 
-- Bump eslint-config-next from 13.4.12 to 13.4.13 
-- Bump @cloudflare/workers-types 
-- Bump @typescript-eslint/parser from 6.2.1 to 6.3.0 
-- Bump next from 13.4.12 to 13.4.13 
-- Bump @next/bundle-analyzer from 13.4.12 to 13.4.13 
-- Bump @babel/preset-env from 7.22.9 to 7.22.10 
-- Bump @types/react from 18.2.18 to 18.2.19 
-- Bump @types/node from 20.4.8 to 20.4.9 
-- Bump wrangler from 3.4.0 to 3.5.0 
-- Bump @types/react from 18.2.19 to 18.2.20 
-- Bump prettier-plugin-tailwindcss from 0.4.1 to 0.5.1 
-- Bump prettier-plugin-tailwindcss from 0.5.1 to 0.5.2 
-- Bump lint-staged from 13.2.3 to 14.0.0 
-- Bump autoprefixer from 10.4.14 to 10.4.15 
-- Bump @types/node from 20.4.9 to 20.5.0 
-- Bump eslint from 8.46.0 to 8.47.0 
-- Bump @typescript-eslint/parser from 6.3.0 to 6.4.0 
-- Bump @cloudflare/workers-types 
-- Bump @typescript-eslint/eslint-plugin 
-- Bump prettier-plugin-tailwindcss from 0.5.2 to 0.5.3 
-- Bump wrangler from 3.5.0 to 3.5.1 
-- Bump prettier from 3.0.1 to 3.0.2 
-- Bump next from 13.4.13 to 13.4.18 
-- Bump @next/bundle-analyzer from 13.4.13 to 13.4.18 
-- Bump postcss from 8.4.27 to 8.4.28 
-- Bump @next/bundle-analyzer from 13.4.18 to 13.4.19 
-- Bump eslint-config-next from 13.4.13 to 13.4.19 
-- Bump @types/node from 20.5.0 to 20.5.1 
-- Bump lint-staged from 14.0.0 to 14.0.1 
-- Bump next from 13.4.18 to 13.4.19 
-- Bump jest from 29.6.2 to 29.6.3 
+- Update `cliff.toml` configuration for better changelog generation
 
 ## [1.0.0-alpha.23] - 2023-07-27
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
-- Bump pnpm/action-setup from 2.2.4 to 2.4.0 
-- Bump nekofar/create-github-release from 1.0.5 to 1.0.8 
 - Update Github Actions workflow with usage guard
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @types/react from 18.2.15 to 18.2.17 
-- Bump @typescript-eslint/parser from 6.1.0 to 6.2.0 
-- Bump turbo from 1.10.9 to 1.10.12 
-- Bump @cloudflare/workers-types 
-- Bump @typescript-eslint/eslint-plugin 
-- Bump @types/node from 20.4.4 to 20.4.5 
-
-## [1.0.0-alpha.22] - 2023-07-24
-
-### <!-- 07 -->Continuous Integrations
-
-- Bump nekofar/create-github-release from 1.0.0 to 1.0.5 
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump eslint-config-next from 13.4.10 to 13.4.12 
-- Bump pnpm from 8.6.9 to 8.6.10 
-- Bump @types/node from 20.4.2 to 20.4.4 
-- Bump postcss from 8.4.26 to 8.4.27 
-- Bump next from 13.4.10 to 13.4.12 
-- Bump @next/bundle-analyzer from 13.4.10 to 13.4.12 
 
 ## [1.0.0-alpha.21] - 2023-07-23
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
 - Refine Github Release workflow
 
 ## [1.0.0-alpha.20] - 2023-07-23
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
 - Improve prerelease condition in Github workflow
 
 ## [1.0.0-alpha.19] - 2023-07-23
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
 - Add node version constraint to package.json
 
 ## [1.0.0-alpha.18] - 2023-07-23
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
+- Remove redundant `turbo-cache` id from pnpm, Add to turbo
 - Update GitHub Actions release workflow
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump turbo from 1.10.8 to 1.10.9 
-- Bump @cloudflare/workers-types 
-- Remove redundant 'turbo-cache' id from pnpm, Add to turbo
 
 ## [1.0.0-alpha.17] - 2023-07-19
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
 - Remove `develop` branch from build workflow
 
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @typescript-eslint/eslint-plugin 
-- Bump pnpm from 8.6.8 to 8.6.9 
-- Bump wrangler from 3.2.0 to 3.3.0 
-
 ## [1.0.0-alpha.16] - 2023-07-18
 
-### <!-- 06 -->Build Environment
+### Miscellaneous Tasks
 
 - Refactor build pipeline outputs in `turbo.json`
 - Remove unnecessary test dependencies in `turbo.json`
 
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @babel/preset-env from 7.22.7 to 7.22.9 
-- Bump eslint from 8.44.0 to 8.45.0 
-- Bump @cloudflare/workers-types 
-- Bump eslint-config-next from 13.4.9 to 13.4.10 
-- Bump @types/node from 20.4.1 to 20.4.2 
-- Bump @next/bundle-analyzer from 13.4.9 to 13.4.10 
-- Bump snarkyjs from 0.11.4 to 0.12.1 
-- Bump @typescript-eslint/parser from 6.0.0 to 6.1.0 
-- Bump next from 13.4.9 to 13.4.10 
-- Bump @types/react-dom from 18.2.6 to 18.2.7 
-- Bump tailwindcss from 3.3.2 to 3.3.3 
-- Bump @types/react from 18.2.14 to 18.2.15 
-
-## [1.0.0-alpha.15] - 2023-07-18
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @types/node from 20.4.0 to 20.4.1 
-- Bump pnpm from 8.6.6 to 8.6.7 
-- Bump @typescript-eslint/parser from 5.61.0 to 6.0.0 
-- Bump prettier-plugin-tailwindcss from 0.3.0 to 0.4.0 
-- Bump postcss from 8.4.25 to 8.4.26 
-- Bump prettier-plugin-tailwindcss from 0.4.0 to 0.4.1 
-- Bump pnpm from 8.6.7 to 8.6.8 
-- Bump @types/jest from 29.5.2 to 29.5.3 
-- Bump wrangler from 3.1.2 to 3.2.0 
-- Bump prettier-plugin-organize-imports 
-- Bump turbo from 1.10.7 to 1.10.8 
-
 ## [1.0.0-alpha.14] - 2023-07-08
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
+- Add turbo.json configuration file for turbo.build
+- Add `.turbo` to .gitignore
+- Update package.json scripts
 - Add turbo cache setup step on `build` workflow
 - Update build workflow to limit parallel execution to 1
 
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump eslint-config-next from 13.4.8 to 13.4.9 
-- Bump jest from 29.6.0 to 29.6.1 
-- Bump @next/bundle-analyzer from 13.4.8 to 13.4.9 
-- Bump postcss from 8.4.24 to 8.4.25 
-- Add turbo.json configuration file for turbo.build
-- Update package.json with `turbo` dependency
-- Add `.turbo` to .gitignore
-- Update package.json scripts
-
-## [1.0.0-alpha.13] - 2023-07-07
-
-### <!-- 07 -->Continuous Integrations
-
-- Bump actions/setup-node from 3.6.0 to 3.7.0 
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @types/node from 20.3.3 to 20.4.0 
-- Bump prettier from 2.8.8 to 3.0.0 
-- Bump next from 13.4.8 to 13.4.9 
-- Bump snarkyjs from 0.11.3 to 0.11.4 
-- Bump @cloudflare/workers-types 
-- Bump wrangler from 3.1.1 to 3.1.2 
-- Bump @babel/preset-env from 7.22.6 to 7.22.7 
-
 ## [1.0.0-alpha.12] - 2023-07-05
 
-### <!-- 03 -->Testing
+### Testing
 
 - Update module path ignore patterns in jest.config.js
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
-- Bump jest from 29.5.0 to 29.6.0 
-- Bump @babel/preset-env from 7.22.5 to 7.22.6 
 - Remove globals and modify Jest configuration for ESM support
 
 ## [1.0.0-alpha.11] - 2023-07-04
 
-### <!-- 04 -->Refactor
+### Refactor
 
 - Update and improve source codes
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
 - Update tsconfig.json for contracts and frontend
 - Update Prettier formatting options
-- Relocate `prettier-plugin-organize-imports` as a dev-dependency in workspace root
 - Update package.json with new lint-staged script
 - Refactor hooks configuration for pre-commit and pre-push
 - Update build output directory and package paths
 
 ## [1.0.0-alpha.10] - 2023-07-04
 
-### <!-- 04 -->Refactor
+### Refactor
 
 - Remove unnecessary file extensions and imports
 
-### <!-- 05 -->Documentation
+### Documentation
 
 - Update dev command in frontend README
 - Update project description
 
 ## [1.0.0-alpha.9] - 2023-07-04
 
-### <!-- 04 -->Refactor
+### Refactor
 
 - Add new component export and import shorthand for GradientBG
 
-### <!-- 05 -->Documentation
+### Documentation
 
 - Update README.md file with badges
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
 - Update package names and imports for zkapp-template
 
 ## [1.0.0-alpha.8] - 2023-07-04
 
-### <!-- 04 -->Refactor
+### Refactor
 
 - Update GradientBG component
 - Update import order in `_document.tsx`, `hello.ts`, `index.tsx`
 - Rename `GradientBG.js` to `GradientBG.tsx`
 
-### <!-- 05 -->Documentation
+### Documentation
 
 - Update project name and description
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
-- Bump pnpm from 8.6.5 to 8.6.6 
-- Bump @next/bundle-analyzer from 13.4.7 to 13.4.8 
-- Bump @typescript-eslint/eslint-plugin 
-- Bump eslint-config-next from 13.4.7 to 13.4.8 
-- Bump wrangler from 3.1.0 to 3.1.1 
-- Bump @typescript-eslint/parser from 5.60.1 to 5.61.0 
-- Bump next from 13.4.7 to 13.4.8 
 - Add `lint` script in package.json
-- Add `eslint-config-prettier` to the dev-dependencies
-- Add `prettier` to the workspace dependencies
 - Update `.eslintrc.json` to extend from `prettier`
 - Ignore irrelevant files from .prettierignore
-- Add `prettier-plugin-organize-imports` to dev-dependencies
-- Add `prettier-plugin-tailwindcss` to dev-dependencies
 - Update prettier.config.js with new configuration
 - Add `format` script to package.json
 - Add `lint-staged` configuration for `frontend` package
-- Relocate `lint-staged` to workspace dev-dependencies
 - Update package.json scripts
 - Removed API route from frontend package.
 
 ## [1.0.0-alpha.7] - 2023-07-03
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
 - Updated author information in package
-- Add new dev dependency and update existing ones
 - Update dev command in package
 
 ## [1.0.0-alpha.6] - 2023-07-02
 
-### <!-- 05 -->Documentation
+### Documentation
 
 - Update project template instructions
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
 - Update the import of the package `webapp` to `frontend`
 
 ## [1.0.0-alpha.5] - 2023-07-02
 
-### <!-- 04 -->Refactor
+### Refactor
 
 - Rename `webapp` package to the `frontend`
 
-### <!-- 05 -->Documentation
+### Documentation
 
 - Update README.md for Mina zkApp Template
-- Create a new license file for the project 
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump jest and @types/jest 
-- Bump ts-jest from 27.0.7 to 29.1.1 
-- Bump @typescript-eslint/parser from 5.5.0 to 5.60.1 
-- Relocate `eslint` to workspace root package
-- Relocate `typescript` to workspace root package
+- Create a new license file for the project (#13)
 
 ## [1.0.0-alpha.4] - 2023-07-02
 
-### <!-- 05 -->Documentation
+### Documentation
 
 - Update readme in contracts and webapp packages
 
-### <!-- 08 -->Miscellaneous Tasks
-
-- Bump @babel/preset-typescript from 7.16.0 to 7.22.5 
-- Bump eslint from 8.7.0 to 8.44.0 
-- Bump typescript from 4.7.2 to 5.1.6 
-
 ## [1.0.0-alpha.3] - 2023-07-02
 
-### <!-- 04 -->Refactor
+### Refactor
 
 - Enable SnarkyJS by setting COOP and COEP headers
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
 - Restructure export and disable image optimization
-- Install `pnpm` as a dev-dependency
 - Update package.json with package manager version
 - Add analyze script to package.json and devDependencies
 - Bundle analyzer configuration added to next.config.js
-- Update snarkyjs version to 0.11.3
 - Update package name in package.json
 
 ## [1.0.0-alpha.2] - 2023-07-02
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
-- Bump prettier from 2.3.2 to 2.8.8 
-- Bump eslint-plugin-snarkyjs from 0.1.0 to 0.3.0 
-- Bump husky from 7.0.1 to 8.0.3 
-- Bump lint-staged from 11.0.1 to 13.2.3 
-- Bump @babel/preset-env from 7.16.4 to 7.22.5 
-- Bump @typescript-eslint/eslint-plugin 
 - Update .npmrc configuration file
-- Replace exact versions instead of carrot
 - Remove unnecessary pnpm lock files
 
 ## [1.0.0-alpha.1] - 2023-07-02
 
-### <!-- 05 -->Documentation
+### Documentation
 
 - Add supported funding model platforms
 - Create a readme file with dummy info
 
-### <!-- 07 -->Continuous Integrations
+### Miscellaneous Tasks
 
 - Relocate CI workflow file out of contracts package
+- Relocate `.husky` from contracts to the workspace
 - Update dependabot configuration
 - Add build workflow configuration for GitHub Actions
-- Delete CI workflow file
-- Remove Node.js version 20.x from the build workflow matrix
-- Create release workflow for generating changelog and publishing on GitHub
-
-### <!-- 08 -->Miscellaneous Tasks
-
-- Relocate `.husky` from contracts to the workspace
 - Update `.npmrc` and enable pre-post scripts.
 - Refactor project package names
-- Update dependencies and import statements of packages
+- Delete CI workflow file
+- Remove Node.js version 20.x from the build workflow matrix
 - Add configuration file for git-cliff
+- Create release workflow for generating changelog and publishing on GitHub
 
 ## [1.0.0-alpha.0] - 2023-07-02
 
-### <!-- 08 -->Miscellaneous Tasks
+### Miscellaneous Tasks
 
 - Add `.nvmrc` with version 16
 - Replace `npm` lock file by `pnpm` one
