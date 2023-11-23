@@ -15,7 +15,7 @@
     "@minazone/zkapp-template-contracts": "workspace:*",
     "@types/node": "20.9.4",
     "@types/react": "18.2.37",
-    "@types/react-dom": "18.2.15",
+    "@types/react-dom": "18.2.17",
     "autoprefixer": "10.4.16",
     "eslint-config-next": "14.0.3",
     "next": "13.5.6",
