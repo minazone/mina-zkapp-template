@@ -39,8 +39,8 @@ importers:
         specifier: 5.3.2
         version: 5.3.2
       wrangler:
-        specifier: 3.18.0
-        version: 3.18.0
+        specifier: 3.19.0
+        version: 3.19.0
 
   packages/contracts:
     dependencies:
@@ -5015,8 +5015,8 @@ packages:
     resolution: {integrity: sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==}
     engines: {node: '>=12'}
 
-  /miniflare@3.20231030.2:
-    resolution: {integrity: sha512-+DYdMqWlUaY4wBylIjewNu8OVsPFquYjQkxoSb2jGIMBmlKaef65Hn2Bu8sub5tQzQ8tLO0FRklmD2Upx0HCCQ==}
+  /miniflare@3.20231030.3:
+    resolution: {integrity: sha512-lquHSh0XiO8uoWDujOLHtDS9mkUTJTc5C5amiQ6A++5y0f+DWiMqbDBvvwjlYf4Dvqk6ChFya9dztk7fg2ZVxA==}
     engines: {node: '>=16.13'}
     hasBin: true
     dependencies:
@@ -5072,17 +5072,10 @@ packages:
       thenify-all: 1.6.0
     dev: false
 
-  /nanoid@3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: true
-
   /nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-    dev: false
 
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
@@ -6660,8 +6653,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20231030.0
     dev: true
 
-  /wrangler@3.18.0:
-    resolution: {integrity: sha512-3UrmldsD84JDBa7HRZ5ACFr1nH+ZZs+Hth37Iv/mAaW2DiQOGcrevKwn4dofmTQO2qYP01u1vtfVJxLM0mq+1w==}
+  /wrangler@3.19.0:
+    resolution: {integrity: sha512-pY7xWqkQn6DJ+1vz9YHz2pCftEmK+JCTj9sqnucp0NZnlUiILDmBWegsjjCLZycgfiA62J213N7NvjLPr2LB8w==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     dependencies:
@@ -6671,8 +6664,8 @@ packages:
       blake3-wasm: 2.1.5
       chokidar: 3.5.3
       esbuild: 0.17.19
-      miniflare: 3.20231030.2
-      nanoid: 3.3.6
+      miniflare: 3.20231030.3
+      nanoid: 3.3.7
       path-to-regexp: 6.2.1
       resolve.exports: 2.0.2
       selfsigned: 2.1.1
