@@ -20,7 +20,7 @@ jobs:
 
       # Generate a changelog for the new release using Git
       - name: Generate a changelog
-        uses: orhun/git-cliff-action@v2.1.1
+        uses: orhun/git-cliff-action@v2.3.0
         id: git-cliff
         with:
           config: cliff.toml # The configuration file for git-cliff
@@ -46,7 +46,7 @@ jobs:
 
       # Create a new GitHub release using the gathered information
       - name: Create the release
-        uses: nekofar/create-github-release@v1.0.12
+        uses: nekofar/create-github-release@v1.0.13
         with:
           token: ${{ github.token }} # Authentication token from GitHub
           tag: ${{ github.ref_name }} # The name of the tag to be released
