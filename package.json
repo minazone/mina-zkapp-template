@@ -1,6 +1,6 @@
 {
   "name": "@minazone/zkapp-template",
-  "version": "1.0.0-alpha.29",
+  "version": "1.0.0-alpha.30",
   "description": "",
   "scripts": {
     "build": "turbo run build",
@@ -18,17 +18,17 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20231218.0",
+    "@cloudflare/workers-types": "4.20240117.0",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
-    "pnpm": "8.14.0",
-    "prettier": "3.1.1",
+    "pnpm": "8.14.1",
+    "prettier": "3.2.4",
     "prettier-plugin-organize-imports": "3.2.4",
-    "turbo": "1.11.2",
+    "turbo": "1.11.3",
     "typescript": "5.3.3",
-    "wrangler": "3.22.2"
+    "wrangler": "3.23.0"
   },
   "engines": {
     "node": "< 20"
