@@ -1,6 +1,6 @@
 {
   "name": "@minazone/zkapp-template",
-  "version": "1.0.0-alpha.30",
+  "version": "1.0.0-alpha.31",
   "description": "",
   "scripts": {
     "build": "turbo run build",
@@ -29,6 +29,11 @@
     "turbo": "1.11.3",
     "typescript": "5.3.3",
     "wrangler": "3.23.0"
+  },
+  "resolutions": {
+    "@babel/traverse": ">=7.23.2",
+    "undici": ">=5.26.2",
+    "zod": ">=3.22.3"
   },
   "engines": {
     "node": "< 20"
