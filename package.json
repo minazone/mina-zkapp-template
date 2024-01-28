@@ -32,7 +32,8 @@
   },
   "resolutions": {
     "@babel/traverse": ">=7.23.2",
-    "undici": ">=5.26.2"
+    "undici": ">=5.26.2",
+    "zod": ">=3.22.3"
   },
   "engines": {
     "node": "< 20"
