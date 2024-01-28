@@ -30,6 +30,9 @@
     "typescript": "5.3.3",
     "wrangler": "3.23.0"
   },
+  "resolutions": {
+    "@babel/traverse": ">=7.23.2"
+  },
   "engines": {
     "node": "< 20"
   },
