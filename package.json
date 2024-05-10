@@ -28,7 +28,7 @@
     "prettier-plugin-organize-imports": "3.2.4",
     "turbo": "1.13.2",
     "typescript": "5.4.5",
-    "wrangler": "3.52.0"
+    "wrangler": "3.55.0"
   },
   "resolutions": {
     "@babel/traverse": ">=7.23.2",
