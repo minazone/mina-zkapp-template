@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240821.1",
+    "@cloudflare/workers-types": "4.20240903.0",
     "eslint": "9.9.1",
     "eslint-config-prettier": "9.1.0",
     "husky": "9.1.5",
