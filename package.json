@@ -20,7 +20,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250224.0",
     "eslint": "9.21.0",
-    "eslint-config-prettier": "10.0.1",
+    "eslint-config-prettier": "10.0.2",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",
     "pnpm": "8.15.6",
