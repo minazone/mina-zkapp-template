@@ -44,8 +44,8 @@ importers:
         specifier: 5.8.2
         version: 5.8.2
       wrangler:
-        specifier: 3.111.0
-        version: 3.111.0(@cloudflare/workers-types@4.20250224.0)
+        specifier: 3.112.0
+        version: 3.112.0(@cloudflare/workers-types@4.20250224.0)
 
   packages/contracts:
     dependencies:
@@ -5448,8 +5448,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /miniflare@3.20250214.1:
-    resolution: {integrity: sha512-NE66QV+2n9ZndaP5jgPlcVref3Arvizb+l2QqhgeXtKM5Orhi8UU2mijoiN3mHEUexKaBES2S1VubT4LDPqkxQ==}
+  /miniflare@3.20250214.2:
+    resolution: {integrity: sha512-t+lT4p2lbOcKv4PS3sx1F/wcDAlbEYZCO2VooLp4H7JErWWYIi9yjD3UillC3CGOpiBahVg5nrPCoFltZf6UlA==}
     engines: {node: '>=16.13'}
     hasBin: true
     dependencies:
@@ -5459,7 +5459,7 @@ packages:
       exit-hook: 2.2.1
       glob-to-regexp: 0.4.1
       stoppable: 1.1.0
-      undici: 7.3.0
+      undici: 7.4.0
       workerd: 1.20250214.0
       ws: 8.18.0
       youch: 3.2.3
@@ -5686,8 +5686,8 @@ packages:
       es-object-atoms: 1.1.1
     dev: false
 
-  /ohash@1.1.4:
-    resolution: {integrity: sha512-FlDryZAahJmEF3VR3w1KogSEdWX3WhA5GPakFx4J81kEAiHyLMpdLLElS8n8dfNadMgAne/MywcvmogzscVt4g==}
+  /ohash@1.1.6:
+    resolution: {integrity: sha512-TBu7PtV8YkAZn0tSxobKY2n2aAQva936lhRrj6957aDaCf9IEtqsKbgMzXE/F/sjqYOwmrukeORHNLe5glk7Cg==}
     dev: true
 
   /once@1.4.0:
@@ -7079,8 +7079,8 @@ packages:
   /undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
-  /undici@7.3.0:
-    resolution: {integrity: sha512-Qy96NND4Dou5jKoSJ2gm8ax8AJM/Ey9o9mz7KN1bb9GP+G0l20Zw8afxTnY2f4b7hmhn/z8aC2kfArVQlAhFBw==}
+  /undici@7.4.0:
+    resolution: {integrity: sha512-PUQM3/es3noM24oUn10u3kNNap0AbxESOmnssmW+dOi9yGwlUSi5nTNYl3bNbTkWOF8YZDkx2tCmj9OtQ3iGGw==}
     engines: {node: '>=20.18.1'}
     dev: true
 
@@ -7089,7 +7089,7 @@ packages:
     dependencies:
       defu: 6.1.4
       mlly: 1.7.4
-      ohash: 1.1.4
+      ohash: 1.1.6
       pathe: 1.1.2
       ufo: 1.5.4
     dev: true
@@ -7289,8 +7289,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20250214.0
     dev: true
 
-  /wrangler@3.111.0(@cloudflare/workers-types@4.20250224.0):
-    resolution: {integrity: sha512-3j/Wq5aj/sCQRSmkjBLxbkIH7LCx0h2UnaxmhOplDjJmZty10lGRs/jGgaG/M/GEsDg5TJ7UHvBh3hSldgjfKg==}
+  /wrangler@3.112.0(@cloudflare/workers-types@4.20250224.0):
+    resolution: {integrity: sha512-PNQWGze3ODlWwG33LPr8kNhbht3eB3L9fogv+fapk2fjaqj0kNweRapkwmvtz46ojcqWzsxmTe4nOC0hIVUfPA==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -7305,7 +7305,7 @@ packages:
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
       esbuild: 0.17.19
-      miniflare: 3.20250214.1
+      miniflare: 3.20250214.2
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.1
       workerd: 1.20250214.0
