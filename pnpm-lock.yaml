@@ -29,8 +29,8 @@ importers:
         specifier: 15.5.0
         version: 15.5.0
       pnpm:
-        specifier: 8.15.6
-        version: 8.15.6
+        specifier: 10.7.0
+        version: 10.7.0
       prettier:
         specifier: 3.5.3
         version: 3.5.3
@@ -6041,9 +6041,9 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /pnpm@8.15.6:
-    resolution: {integrity: sha512-d7iem+d6Kwatj0A6Gcrl4il29hAj+YrTI9XDAZSVjrwC7gpq5dE+5FT2E05OjK8poF8LGg4dKxe8prah8RWfhg==}
-    engines: {node: '>=16.14'}
+  /pnpm@10.7.0:
+    resolution: {integrity: sha512-a4Za1LYqHZhCth1nSjk5A7hx2SRJVPZSuIQsK1U8chdrJ49kxGPlLUD/+KujhcI1yMns9cx95P14uLttSWM6tg==}
+    engines: {node: '>=18.12'}
     hasBin: true
     dev: true
 
