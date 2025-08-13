@@ -14,8 +14,8 @@ importers:
   .:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: 4.20250425.0
-        version: 4.20250425.0
+        specifier: 4.20250813.0
+        version: 4.20250813.0
       eslint:
         specifier: 9.25.1
         version: 9.25.1
@@ -45,7 +45,7 @@ importers:
         version: 5.8.3
       wrangler:
         specifier: 4.13.2
-        version: 4.13.2(@cloudflare/workers-types@4.20250425.0)
+        version: 4.13.2(@cloudflare/workers-types@4.20250813.0)
 
   packages/contracts:
     dependencies:
@@ -143,8 +143,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.12
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/gen-mapping': 0.3.13
+      '@jridgewell/trace-mapping': 0.3.30
     dev: true
 
   /@babel/code-frame@7.27.1:
@@ -1520,8 +1520,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20250425.0:
-    resolution: {integrity: sha512-BOU4hbK7Bhcxhmjuk/FcDopWvdvuCLMIanHjNxI0UflPhsFJj5se224iNluw8T5pROA0NFAYhBd3Up784p2/Jw==}
+  /@cloudflare/workers-types@4.20250813.0:
+    resolution: {integrity: sha512-RFFjomDndGR+p7ug1HWDlW21qOJyRZbmI99dUtuR9tmwJbSZhUUnSFmzok9lBYVfkMMrO1O5vmB+IlgiecgLEA==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -2300,6 +2300,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.4
       '@jridgewell/trace-mapping': 0.3.29
 
+  /@jridgewell/gen-mapping@0.3.13:
+    resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/trace-mapping': 0.3.30
+    dev: true
+
   /@jridgewell/resolve-uri@3.1.2:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
     engines: {node: '>=6.0.0'}
@@ -2307,11 +2314,22 @@ packages:
   /@jridgewell/sourcemap-codec@1.5.4:
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
 
+  /@jridgewell/sourcemap-codec@1.5.5:
+    resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
+    dev: true
+
   /@jridgewell/trace-mapping@0.3.29:
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
+
+  /@jridgewell/trace-mapping@0.3.30:
+    resolution: {integrity: sha512-GQ7Nw5G2lTu/BtHTKfXhKHok2WGetd4XYcVKGx00SjAk8GMwgJM3zr6zORiPGuOE+/vkc90KtTosSSvaCjKb2Q==}
+    dependencies:
+      '@jridgewell/resolve-uri': 3.1.2
+      '@jridgewell/sourcemap-codec': 1.5.5
+    dev: true
 
   /@jridgewell/trace-mapping@0.3.9:
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
@@ -7455,7 +7473,7 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20250424.0
     dev: true
 
-  /wrangler@4.13.2(@cloudflare/workers-types@4.20250425.0):
+  /wrangler@4.13.2(@cloudflare/workers-types@4.20250813.0):
     resolution: {integrity: sha512-CryA3MRzjNceFVef78ymqhxXrIYQoYKQIPITvvd/Yn3SX4UAADZOOrztatNcgRAyXssjdGH4JRw7fKoSnOaOog==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -7467,7 +7485,7 @@ packages:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250424.0)
-      '@cloudflare/workers-types': 4.20250425.0
+      '@cloudflare/workers-types': 4.20250813.0
       blake3-wasm: 2.1.5
       esbuild: 0.25.2
       miniflare: 4.20250424.1
