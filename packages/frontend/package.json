@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "15.4.6",
-    "prettier-plugin-tailwindcss": "0.6.11"
+    "prettier-plugin-tailwindcss": "0.6.14"
   }
 }
