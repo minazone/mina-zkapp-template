@@ -36,13 +36,13 @@ importers:
         version: 3.6.2
       prettier-plugin-organize-imports:
         specifier: 4.2.0
-        version: 4.2.0(prettier@3.6.2)(typescript@5.8.3)
+        version: 4.2.0(prettier@3.6.2)(typescript@5.9.2)
       turbo:
         specifier: 1.13.2
         version: 1.13.2
       typescript:
-        specifier: 5.8.3
-        version: 5.8.3
+        specifier: 5.9.2
+        version: 5.9.2
       wrangler:
         specifier: 4.30.0
         version: 4.30.0(@cloudflare/workers-types@4.20250813.0)
@@ -6198,7 +6198,7 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  /prettier-plugin-organize-imports@4.2.0(prettier@3.6.2)(typescript@5.8.3):
+  /prettier-plugin-organize-imports@4.2.0(prettier@3.6.2)(typescript@5.9.2):
     resolution: {integrity: sha512-Zdy27UhlmyvATZi67BTnLcKTo8fm6Oik59Sz6H64PgZJVs6NJpPD1mT240mmJn62c98/QaL+r3kx9Q3gRpDajg==}
     peerDependencies:
       prettier: '>=2.0'
@@ -6209,7 +6209,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.6.2
-      typescript: 5.8.3
+      typescript: 5.9.2
     dev: true
 
   /prettier-plugin-tailwindcss@0.6.14(prettier-plugin-organize-imports@4.2.0)(prettier@3.6.2):
@@ -6274,7 +6274,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.6.2
-      prettier-plugin-organize-imports: 4.2.0(prettier@3.6.2)(typescript@5.8.3)
+      prettier-plugin-organize-imports: 4.2.0(prettier@3.6.2)(typescript@5.9.2)
     dev: true
 
   /prettier@3.6.2:
@@ -7250,6 +7250,12 @@ packages:
     resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
+
+  /typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
 
   /ufo@1.6.1:
     resolution: {integrity: sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==}
