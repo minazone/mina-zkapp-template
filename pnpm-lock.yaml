@@ -14,8 +14,8 @@ importers:
   .:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: 4.20251003.0
-        version: 4.20251003.0
+        specifier: 4.20251004.0
+        version: 4.20251004.0
       eslint:
         specifier: 9.36.0
         version: 9.36.0
@@ -45,7 +45,7 @@ importers:
         version: 5.9.3
       wrangler:
         specifier: 4.42.0
-        version: 4.42.0(@cloudflare/workers-types@4.20251003.0)
+        version: 4.42.0(@cloudflare/workers-types@4.20251004.0)
 
   packages/contracts:
     dependencies:
@@ -1491,8 +1491,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20251003.0:
-    resolution: {integrity: sha512-rtg7FqYVNHsltn1GOV+P3hQpVf1WDI3wH8Mj4IjK99fidJ4ttzUPuCX/uYE/PIF/HBPK66TqVwToO+GN4Lmx0Q==}
+  /@cloudflare/workers-types@4.20251004.0:
+    resolution: {integrity: sha512-FkTBHEyOBwphbW4SLQ2XLCgNntD2wz0v1Si7NwJeN0JAPW/39/w6zhsKy3rsh+203tuSfBgsoP34+Os4RaySOw==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -7390,7 +7390,7 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20251001.0
     dev: true
 
-  /wrangler@4.42.0(@cloudflare/workers-types@4.20251003.0):
+  /wrangler@4.42.0(@cloudflare/workers-types@4.20251004.0):
     resolution: {integrity: sha512-OZXiUSfGD66OVkncDbjZtqrsH6bWPRQMYc6RmMbkzYm/lEvJ8lvARKcqDgEyq8zDAgJAivlMQLyPtKQoVjQ/4g==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -7402,7 +7402,7 @@ packages:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.7.6(unenv@2.0.0-rc.21)(workerd@1.20251001.0)
-      '@cloudflare/workers-types': 4.20251003.0
+      '@cloudflare/workers-types': 4.20251004.0
       blake3-wasm: 2.1.5
       esbuild: 0.25.4
       miniflare: 4.20251001.0
