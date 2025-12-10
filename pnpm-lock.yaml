@@ -90,8 +90,8 @@ importers:
         specifier: 18.3.4
         version: 18.3.4
       '@types/react-dom':
-        specifier: 18.2.25
-        version: 18.2.25
+        specifier: 19.2.3
+        version: 19.2.3(@types/react@18.3.4)
       autoprefixer:
         specifier: 10.4.22
         version: 10.4.22(postcss@8.5.6)
@@ -100,7 +100,7 @@ importers:
         version: 16.0.8(@typescript-eslint/parser@8.49.0)(eslint@9.39.1)(typescript@5.9.3)
       next:
         specifier: 13.5.6
-        version: 13.5.6(@babel/core@7.28.5)(react-dom@18.2.0)(react@18.3.1)
+        version: 13.5.6(@babel/core@7.28.5)(react-dom@19.2.1)(react@18.3.1)
       postcss:
         specifier: 8.5.6
         version: 8.5.6
@@ -108,8 +108,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1
       react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.3.1)
+        specifier: 19.2.1
+        version: 19.2.1(react@18.3.1)
       snarkyjs:
         specifier: 0.12.1
         version: 0.12.1
@@ -2497,8 +2497,10 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom@18.2.25:
-    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
+  /@types/react-dom@19.2.3(@types/react@18.3.4):
+    resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
+    peerDependencies:
+      '@types/react': ^19.2.0
     dependencies:
       '@types/react': 18.3.4
     dev: false
@@ -5615,7 +5617,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /next@13.5.6(@babel/core@7.28.5)(react-dom@18.2.0)(react@18.3.1):
+  /next@13.5.6(@babel/core@7.28.5)(react-dom@19.2.1)(react@18.3.1):
     resolution: {integrity: sha512-Y2wTcTbO4WwEsVb4A8VSnOsG1I9ok+h74q0ZdxkwM3EODqrs4pasq7O0iUxbcS9VtWMicG7f3+HAj0r1+NtKSw==}
     engines: {node: '>=16.14.0'}
     hasBin: true
@@ -5636,7 +5638,7 @@ packages:
       caniuse-lite: 1.0.30001549
       postcss: 8.4.31
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 19.2.1(react@18.3.1)
       styled-jsx: 5.1.1(@babel/core@7.28.5)(react@18.3.1)
       watchpack: 2.4.0
     optionalDependencies:
@@ -6131,14 +6133,13 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: false
 
-  /react-dom@18.2.0(react@18.3.1):
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom@19.2.1(react@18.3.1):
+    resolution: {integrity: sha512-ibrK8llX2a4eOskq1mXKu/TGZj9qzomO+sNfO98M6d9zIPOEhlBkMkBUBLd1vgS0gQsLDBzA+8jJBVXDnfHmJg==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^19.2.1
     dependencies:
-      loose-envify: 1.4.0
       react: 18.3.1
-      scheduler: 0.23.0
+      scheduler: 0.27.0
     dev: false
 
   /react-is@16.13.1:
@@ -6342,10 +6343,8 @@ packages:
       is-regex: 1.2.1
     dev: false
 
-  /scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
-    dependencies:
-      loose-envify: 1.4.0
+  /scheduler@0.27.0:
+    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
     dev: false
 
   /semver@6.3.1:
